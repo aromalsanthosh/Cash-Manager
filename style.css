@@ -1,6 +1,6 @@
 :root{
     --dark-green : #2087c293;
-    --faint-green: white;
+    --white: white;
 }
 *{
     font-family: 'Open Sans', sans-serif;
@@ -20,7 +20,6 @@ body{
     margin-top: 15vh;
     padding: 2rem 1rem;
     text-align: center;
-    /* background-color: var(--dark-green); */
     border-radius: 37px;
     background: linear-gradient(145deg, #42ab99, #4ecbb6);
     box-shadow:  41px 41px 82px #3ea291,
@@ -32,7 +31,7 @@ h1, p{
 .label{
     font-size: 1.3rem;
     padding: 1.5rem 1rem 0.5rem;
-    color: var(--faint-green);
+    color: var(--white);
 }
 
 
@@ -42,6 +41,7 @@ input{
     height: 50px;
     display: block;
     background-color: #EEB868;
+    border-radius: 10px;
 }
 
 button{
@@ -109,5 +109,8 @@ footer{
 
 a{
     color: #0f82ee;
-    
+}
+
+a:hover{
+    color: #EEB868;
 }

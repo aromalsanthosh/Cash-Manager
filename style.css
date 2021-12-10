@@ -107,7 +107,7 @@ button:hover{
 
 table{
     width: 100%;
-    table-layout: auto;
+    table-layout: fixed;
     filter: drop-shadow(14.6469px 17.5762px 29.2937px rgba(0, 0, 0, 0.05));
     backdrop-filter: blur(20.5056px);
     overflow: hidden;
@@ -144,3 +144,11 @@ a:hover{
     border-bottom-color: #fff9;
 }
 
+@media only screen and (max-width: 600px) {
+    table{
+        table-layout: auto;
+    }
+    footer{
+        font-size: medium;
+    }
+  }

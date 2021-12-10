@@ -97,7 +97,7 @@ button:hover{
 #output table, th, td{
     padding: 0.2rem;
     color: var(black);
-    border:2px solid #764ba247;
+    border:1.75px solid #764ba247;
     border-collapse: collapse;
 }
 .noOfNotes{
@@ -107,7 +107,7 @@ button:hover{
 
 table{
     width: 100%;
-    table-layout: fixed;
+    table-layout: auto;
     filter: drop-shadow(14.6469px 17.5762px 29.2937px rgba(0, 0, 0, 0.05));
     backdrop-filter: blur(20.5056px);
     overflow: hidden;

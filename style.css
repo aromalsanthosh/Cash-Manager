@@ -67,8 +67,7 @@ button{
     margin: 1rem auto 0;
     background-color:#49DCB1;
     background: linear-gradient(131.68deg, rgba(255, 255, 255, 0.6) -3%, rgba(255, 255, 255, 0.6) 113.86%);
-    border: 1.4px solid;
-    border-image-source: linear-gradient(129.7deg, #FFFFFF -2.42%, rgba(255, 255, 255, 0.82) 55.85%);
+    border: 1.4px solid #fff;
     font-weight: bold;
     border-radius: 20px;
     color: #675055;

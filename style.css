@@ -11,7 +11,7 @@
 }
 html{
     margin: 0;
-    height: 100%;
+    height: auto;
     background: linear-gradient(240.42deg, #667EEA 0%, #764BA2 101.4%);
 }
 
@@ -97,8 +97,7 @@ button:hover{
 #output table, th, td{
     padding: 0.2rem;
     color: var(black);
-    border:2px;
-    border-image-source: #000;
+    border:2px solid #764ba247;
     border-collapse: collapse;
 }
 .noOfNotes{
@@ -116,7 +115,7 @@ table{
 /* Note: backdrop-filter has minimal browser support */
 
     border: 2px;
-    border-image-source: linear-gradient(129.7deg, #FFFFFF -2.42%, rgba(255, 255, 255, 0.82) 55.85%);
+    border-image-source: linear-gradient(129.7deg, #fff -2.42%, rgba(255, 255, 255, 0.82) 55.85%);
 }
 
 th,td{
@@ -136,9 +135,11 @@ footer{
 }
 
 a{
-    color: #0f82ee;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 3px solid #fff3;
 }
 
 a:hover{
-    color: #EEB868;
+    border-bottom-color: #fff9;
 }
